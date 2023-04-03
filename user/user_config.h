@@ -114,7 +114,7 @@
 //
 // Define this to 1 if you want to have it work as a MQTT client
 //
-#define		MQTT_CLIENT 1
+#define		MQTT_CLIENT 0
 
 #define		MQTT_BUF_SIZE 2048
 #define		MQTT_KEEPALIVE 120  /*seconds*/
@@ -140,7 +140,7 @@
 // Define this to 1 to support an ENC28J60 Ethernet interface
 // Experimental feature - not yet stable
 //
-#define		HAVE_ENC28J60 0
+#define		HAVE_ENC28J60 1
 
 //
 // Define this to 1 to support ENC28J60 DHCP server
